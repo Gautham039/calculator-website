@@ -1,0 +1,55 @@
+#heading {
+    text-align: center;
+    color: aqua;
+}
+.container {
+    width: 460px;
+    height: 550px;
+    background-color: rgb(66, 65, 65);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+p {
+    margin-left: 10px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+#screen {
+    width: 450px;
+    height: 80px;
+    background-color: rgb(65, 65, 102);
+    font-size: 4rem;
+    border-radius: 5px;
+    margin: auto;
+    text-align: right;
+}
+.buttons {
+    color: white;
+    background-color: grey;
+    margin: 20px;
+    width: 70px;
+    height: 60px;
+    border-radius: 10px;
+
+}
+#clear {
+    background-color: red;
+}
+#res {
+    background-color: rgb(9, 255, 0);
+}
+.creator{
+    color: lime;
+    background-color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.creator:hover{
+    color: black;
+    background-color: lime;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="heading">Calculator</h1>
+    <a href="#" class="creator">By Gautham</a>
+
+    <div class="container">
+        
+        <form action="">
+
+            <p>CASIO</p>
+            <input class="buttons" type="text" id="screen">
+            <input class="buttons" type="button" id="num" value="7" onclick="btnclk(value)">
+            <input class="buttons" type="button" id="num" value="8" onclick="btnclk(value)">
+            <input class="buttons" type="button" id="num" value="9" onclick="btnclk(value)">
+            <input class="buttons" type="button" id="sym" value="+" onclick="btnclk(value)">
+            <br>
+            <input class="buttons" type="button" id="num" value="4" onclick="btnclk(value)">
+            <input class="buttons" type="button" id="num" value="5" onclick="btnclk(value)">
+            <input class="buttons" type="button" id="num" value="6" onclick="btnclk(value)">
+            <input class="buttons" type="button" id="sym" value="-" onclick="btnclk(value)">
+            <br>
+            <input class="buttons" type="button" id="num" value="1" onclick="btnclk(value)">
+            <input class="buttons" type="button" id="num" value="2" onclick="btnclk(value)">
+            <input class="buttons" type="button" id="num" value="3" onclick="btnclk(value)">
+            <input class="buttons" type="button" id="sym" value="*" onclick="btnclk(value)">
+            <br>
+            <input class="buttons" type="button" id="clear" value="C" onclick="sc()">
+            <input class="buttons" type="button" id="sym" value="/" onclick="btnclk(value)">
+            <input class="buttons" type="button" id="res" value="=" onclick="findresult()">
+
+        </form>
+
+
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>
